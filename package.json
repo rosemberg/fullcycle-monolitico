@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "npm run tsc -- --noEmit && jest",
-    "tsc": "npx tsc"
+    "tsc": "npx tsc",
+    "start": "npm run tsc && node dist/index.js"
   },
   "dependencies": {
     "@types/express": "^4.17.13",
